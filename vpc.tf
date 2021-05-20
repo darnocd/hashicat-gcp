@@ -3,7 +3,7 @@ module "network" {
   version = "2.5.0"
   # insert required variables here
   network_name = "conrad-network"
-  project_id = "var.project"
+  project_id = var.project
 
   subnets = [
   {
